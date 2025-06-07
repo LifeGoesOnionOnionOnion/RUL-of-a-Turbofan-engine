@@ -1,5 +1,5 @@
 
-# 🛠️ Turbofan Engine RUL Predictor
+# Turbofan Engine RUL Predictor
 
 This project uses machine learning to predict the **Remaining Useful Life (RUL)** of aircraft engines using the NASA C-MAPSS dataset. It's a part of a predictive maintenance initiative to estimate how many cycles an engine can run before failure, helping reduce unplanned downtime and improve maintenance planning.
 
@@ -10,7 +10,7 @@ This project uses machine learning to predict the **Remaining Useful Life (RUL)*
 - **Target:** Predict RUL for each engine unit
 - [Dataset Link](https://www.nasa.gov/content/prognostics-center-of-excellence-data-set-repository)
 
-## 🧠 Techniques Used
+## Techniques Used
 
 - Data preprocessing (normalization, sequence generation)
 - Feature engineering
@@ -20,11 +20,11 @@ This project uses machine learning to predict the **Remaining Useful Life (RUL)*
   - Gradient Boosting
 - Evaluation metrics: RMSE, MAE
 
-## 📈 Results
+## Results
 
 Achieved promising results using tree-based models, with lower RMSE and better generalization on test data compared to linear methods. The model can predict RUL from real-time sensor input sequences.
 
-## 🛠️ Requirements
+##  Requirements
 
 - Python 3.x  
 - pandas  
@@ -32,13 +32,13 @@ Achieved promising results using tree-based models, with lower RMSE and better g
 - scikit-learn  
 - matplotlib  
 
-## 📌 TODO / Future Work
+## TODO / Future Work
 
 - Try LSTM models for sequence-based prediction  
 - Add hyperparameter tuning  
 - Develop a web-based UI for prediction
 
-## 👨‍💻 Author
+## Author
 
 Akshit Sachdeva  
 B.Tech Data Science, Manipal Institute of Technology
